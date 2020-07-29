@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    margin: 1px;
+}
+
+#bt { 
+    margin-top: 10px; 
+    margin-left: 7px;   
+}
+
+.div_1 {
+    background-color: white;
+    border: solid #9d9d9d 1px;
+    border-radius: 5px; /* Deixa a borda da "div" arredondada */
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 13%; /* Esta linha é uma Gambiarra */
+}
+
+.div_2 { 
+    align-items: center; /* centralizar os itens na horizontal */
+}
+
+.div_3 { 
+    height: 40px;
+    width: 330px;
+}
+
+.div_4 { 
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.h_1 { 
+    margin-left: 100px;
+    font-family: 'Dosis'sans-serif;
+    font-weight: 200;
+    color: #8d5d8f;
+}
+
+.h_2 { 
+    font-size: 27px;
+    font-family: 'Lobster', cursive;
+    color: #303694;
+}
+
+.h_3 { 
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
+    color: #232323;
+}
+
+.h_4 { 
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+    color: #B1B1B1;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="site.css">
+
+  <title>Cadastro</title>
+</head>
+
+<body>
+
+  <a href= "..\index.html"> <img src= "..\img\icones\home.png" > </a>
+
+
+  <div id="Menu">
+
+    <center>
+      <b>
+        <h2>
+          Cadastro de editoras:
+        </h2>
+      </b>
+    </center>
+
+  </div>
+
+  <div id="Formulario_Cadastro">
+    <form action="NovaEditora" method="POST" enctype="application/x-www-form-urlencoded">
+      <div>
+        <b>
+          <label class="italico" for="Nome completo">Nome completo: </label>
+        </b>
+
+        <input class="inpt_style" type="text" required class="inpt_style" placeholder="Nome" maxlength="20" name="nome"
+          id="Nome_Editora">
+      </div>
+
+      </br>
+
+      <div>
+        <b>
+          <label class="italico" for="Endereço">
+            Endereço:
+          </label>
+        </b>
+        <input class="inpt_style" type="text" required class="inpt_style" placeholder="Endereço" maxlength="30" name="endereco"
+          id="Endereco">
+
+      </div>
+
+      <br />
+
+      <div>
+        <b>
+          <label class="italico" for="Cidade">
+            Cidade:
+          </label>
+        </b>
+        <input class="inpt_style" type="text" required placeholder="Cidade" maxlength="200" name="cidade" id="Cidade">
+      </div>
+
+      <br />
+
+      <div>
+        <b>
+          <label class="italico" for="Estado">
+            Estado:
+          </label>
+        </b>
+
+        <select class="inpt_style" name="estado">
+          <option></option>
+          <option value="Acre">Acre</option>
+          <option value="Alagoas">Alagoas</option>
+          <option value="Amapa">Amapá</option>
+          <option value="Amazonas">Amazonas</option>
+          <option value="Bahia">Bahia</option>
+          <option value="Ceara">Ceará</option>
+          <option value="DistritoFederal">Distrito Federal</option>
+          <option value="EspíritoSanto">Espírito Santo</option>
+          <option value="Goias">Goiás</option>
+          <option value="Maranhao">Maranhão</option>
+          <option value="MatoGrosso">Mato Grosso</option>
+          <option value="MatoGrossodoSul">Mato Grosso do Sul</option>
+          <option value="MinasGerais">Minas Gerais</option>
+          <option value="Para">Pará</option>
+          <option value="Paraiba">Paraíba</option>
+          <option value="Parana">Paraná</option>
+          <option value="Pernambuco">Pernambuco</option>
+          <option value="Piaui">Piauí</option>
+          <option value="RiodeJaneiro">Rio de Janeiro</option>
+          <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+          <option value="RioGrandedoSul">Rio Grande do Sul</option>
+          <option value="Rondonia">Rondônia</option>
+          <option value="Roraima">Roraima</option>
+          <option value="SantaCatarina">Santa Catarina</option>
+          <option value="SaoPaulo">São Paulo</option>
+          <option value="Sergipe">Sergipe</option>
+          <option value="Tocantins">Tocantins</option>
+        </select>
+
+
+        <b>
+          <label class="italico" for="UF">
+            UF:
+          </label>
+        </b>
+
+        <select class="inpt_style" name="uf">
+          <option></option>
+          <option value="AC">AC</option>
+          <option value="AL">AL</option>
+          <option value="AP">AP</option>
+          <option value="AM">AM</option>
+          <option value="BA">BA</option>
+          <option value="CE">CE</option>
+          <option value="DF">DF</option>
+          <option value="ES">ES</option>
+          <option value="GO">GO</option>
+          <option value="MA">MA</option>
+          <option value="MT">MT</option>
+          <option value="MS">MS</option>
+          <option value="MG">MG</option>
+          <option value="PA">PA</option>
+          <option value="PB">PB</option>
+          <option value="PR">PR</option>
+          <option value="PE">PE</option>
+          <option value="PI">PI</option>
+          <option value="RJ">RJ</option>
+          <option value="RN">RN</option>
+          <option value="RS">RS</option>
+          <option value="RO">RO</option>
+          <option value="RR">RR</option>
+          <option value="SC">SC</option>
+          <option value="SP">SP</option>
+          <option value="SE">SE</option>
+          <option value="TO">TO</option>
+        </select>
+
+      </div>
+
+      <br />
+
+      <div>
+        <b>
+          <label class="italico" for="">
+            RG:
+          </label>
+        </b>
+        <input class="inpt_style" type="text" required placeholder="RG" maxlength="200" name="RG" id="RG">
+      </div>
+
+      </br>
+
+      <div>
+        <b>
+          <label for="CPF">
+            CPF:
+          </label>
+        </b>
+        <input class="inpt_style" type="text" required placeholder="CPF" maxlength="11" name="CPF" id="CPF">
+      </div>
+
+      </br>
+
+      <div>
+        <b><label class="italico" for="Email">E-mail: </label></b>
+        <input class="inpt_style" type="email" placeholder="Email" maxlength="20" name="email" id="Email">
+      </div>
+
+      </br>
+
+
+      <div>
+        <b>
+          <label for="Facebook">
+            Facebook
+          </label>
+        </b>
+        <input name="Facebook" type="checkbox">
+        <b>
+          <label for="Whatsapp">
+            Whatsapp
+          </label>
+        </b>
+        <input name="Whatsapp" type="checkbox">
+        <b>
+          <label for="Twitter">
+            Twitter
+          </label>
+        </b>
+        <input name="Twitter" type="checkbox">
+      </div>
+
+      </br>
+
+      <div>
+        <b>
+          <label for="Redes">
+            Redes
+          </label>
+
+          <input name="curso" type="radio">
+          <label for="SI">
+            SI
+          </label>
+          <input name="curso" type="radio">
+          <label for="ADS">
+            ADS
+          </label>
+
+          <input name="curso" type="radio">
+        </b>
+      </div>
+
+      </br>
+
+      <from>
+        <b><i> Mensagem:</i></b> </br>
+        <br> <textarea class="inpt_style" maxlength="100">Adicione um comentário</textarea>
+      </from></br>
+
+      </br>
+
+      <div id="botoes">
+        <a href=""></a><input type="button" class="btn" value="Voltar"></a>
+
+        <input type="reset" class="btn" value="LimparCampos">
+
+        <a href=""></a><input type="submit" class="btn" value="Cadastro"></a>
+
+      </div>
+
+
+    </form>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <center>
+    <table class="tb" border="2">
+
+      <caption class="ac">
+        AC4:
+      </caption>
+
+      <tr>
+        <th>RA:</th>
+        <th>Nome:</th>
+      </tr>
+
+      <tr>
+        <td>1800020</td>
+        <td>Julio César C. Previero</td>
+      </tr>
+
+      <tr>
+        <td>1800689</td>
+        <td>Vitor Novoa da Silva</td>
+      </tr>
+
+      <tr>
+        <td>1800229</td>
+        <td>Fernanda Clementino</td>
+      </tr>
+
+      <tr>
+        <td>1800824</td>
+        <td>Derek Barragão</td>
+      </tr>
+
+      <tr>
+        <td>1800906</td>
+        <td>Israel Rodrigues</td>
+      </tr>
+
+      <tr>
+        <td>1800538</td>
+        <td>Lucas Ribero</td>
+      </tr>
+
+    </table>
+  </center>
+
+</body>
+
+</html>

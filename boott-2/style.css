@@ -1,0 +1,78 @@
+body {
+    /* background-image: url(https://live.staticflickr.com/749/20974033379_5d7d8ad5c3_k.jpg); */
+    background-image: url(../img/Suellys_Turismo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+#bt { 
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.abacate { 
+    height: 85vh;
+}
+
+.div_do_meio { 
+    /* background-color: rgba(255, 255, 255, 0.09); */
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.text_de_cima {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff4df;
+    margin: 0;
+}
+
+.txt1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #fff4df;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.txt2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff4df;
+    word-wrap: break-word;
+}
+
+.txt3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff4df;
+    word-wrap: break-word;
+}
+
+.e-mail {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff4df;
+}
+
+.link_foto {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: antiquewhite;
+}
+
+.flickr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+

@@ -1,0 +1,39 @@
+.h11 {
+    font-family: "Metamorphous";
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    color: red;
+}
+
+.h22 {
+    font-weight: bolder;
+}
+
+.tb {
+    text-align: center;
+    border-color: red;
+}
+
+.ac {
+    white-space: nowrap;
+    font-size: 25px;
+    color: red;
+}
+
+darth {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+darth1 {
+    text-decoration: underline;
+}
+
+darth2 {
+    color: red;
+}
+
+darth3 {
+    color: #4AFC1C;
+}

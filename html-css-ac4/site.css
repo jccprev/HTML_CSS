@@ -1,0 +1,23 @@
+.inpt_style{
+    background-color: #87CEFA;
+    font-weight: bold;
+    width: 250px;
+}
+.italico{
+    font-style: italic;
+}
+
+.inpt_style:focus{
+    background-color: white;
+}
+
+.tb {
+    text-align: center;
+    border-color: red;
+}
+
+.ac {
+    white-space: nowrap;
+    font-size: 25px;
+    color: red;
+}

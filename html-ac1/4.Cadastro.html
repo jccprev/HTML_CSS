@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>5.Cadastro</title>
+</head>
+
+<body>
+
+    <a href= "..\index.html"> <img src= "..\img\icones\home.png" > <a/>
+
+      <div id="Menu">
+
+          <center>
+            <b>
+              <h2>
+                Cadastro de editoras:
+              </h2>
+            </b>
+          </center>
+
+      </div>
+
+      <div id="Formulario_Cadastro">
+        <form action="NovaEditora" method="POST" enctype="application/x-www-form-urlencoded">
+          <div>
+              <b>
+                <label for="Nome_Editora">Nome da Editora: </label>
+              </b>
+              
+              <input type="text" required 
+               placeholder="Nome" 
+               maxlength="200" name="nome" id="Nome_Editora">
+          </div>
+
+        </br>
+          
+          <div>
+              <b><label for="Email">E-mail: </label></b>
+              <input type="email"
+               placeholder="Email"
+               maxlength="100" name="email" id="Email">
+          </div>
+
+        </br>
+          
+        <div>
+              <b>
+                  <label for="Endereco">
+                      Endereço: 
+                  </label>
+                </b>
+              <input type="text" required 
+               placeholder="Endereço"
+               maxlength="200" name="endereco" id="Endereco">
+          
+        </div>
+        
+    </br>
+        
+            <div>
+              <b>
+                  <label for="CEP">
+                      CEP: 
+                  </label>
+                </b>
+              <input type="text" required 
+               placeholder="CEP" 
+               maxlength="200" name="cep" id="CEP">
+          </div>
+
+        </br>
+
+          <div>
+              <b>
+                  <label for="Bairro">
+                      Bairro: 
+                    </label>
+                </b>
+              <input type="text" required 
+               placeholder="Bairro" 
+               maxlength="200" name="bairro" id="Bairro">
+          </div>
+
+        </br>
+          
+            <div>
+              <b>
+                  <label for="Cidade">
+                      Cidade: 
+                    </label>
+                </b>
+              <input type="text" required 
+               placeholder="Cidade" 
+               maxlength="200" name="cidade" id="Cidade">
+          </div>
+
+        </br>
+          
+            <div>
+              <b>
+                  <label for="Numero">
+                      Número: 
+                    </label>
+                </b>
+              <input type="text" required 
+               placeholder="Núemro"
+               maxlength="200" name="numero" id="Numero">
+          </div>
+
+        </br>
+          
+            <div>
+              <b>
+                  <label for="Estado">
+                      Estado: 
+                    </label>
+                </b>
+
+              <select name="estado">
+                  <option></option>
+                  <option value="Acre">Acre</option>
+                  <option value="Alagoas">Alagoas</option>
+                  <option value="Amapa">Amapá</option>
+                  <option value="Amazonas">Amazonas</option>
+                  <option value="Bahia">Bahia</option>
+                  <option value="Ceara">Ceará</option>
+                  <option value="DistritoFederal">Distrito Federal</option>
+                  <option value="EspíritoSanto">Espírito Santo</option>
+                  <option value="Goias">Goiás</option>
+                  <option value="Maranhao">Maranhão</option>
+                  <option value="MatoGrosso">Mato Grosso</option>
+                  <option value="MatoGrossodoSul">Mato Grosso do Sul</option>
+                  <option value="MinasGerais">Minas Gerais</option>
+                  <option value="Para">Pará</option>
+                  <option value="Paraiba">Paraíba</option>
+                  <option value="Parana">Paraná</option>
+                  <option value="Pernambuco">Pernambuco</option>
+                  <option value="Piaui">Piauí</option>
+                  <option value="RiodeJaneiro">Rio de Janeiro</option>
+                  <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+                  <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                  <option value="Rondonia">Rondônia</option>
+                  <option value="Roraima">Roraima</option>
+                  <option value="SantaCatarina">Santa Catarina</option>
+                  <option value="SaoPaulo">São Paulo</option>
+                  <option value="Sergipe">Sergipe</option>
+                  <option value="Tocantins">Tocantins</option>
+              </select>
+                                
+              
+              <b>
+                  <label for="UF">
+                      UF: 
+                    </label>
+                </b>
+
+              <select name="uf">
+                      <option></option>
+                      <option value="AC">AC</option>
+                      <option value="AL">AL</option>
+                      <option value="AP">AP</option>
+                      <option value="AM">AM</option>
+                      <option value="BA">BA</option>
+                      <option value="CE">CE</option>
+                      <option value="DF">DF</option>
+                      <option value="ES">ES</option>
+                      <option value="GO">GO</option>
+                      <option value="MA">MA</option>
+                      <option value="MT">MT</option>
+                      <option value="MS">MS</option>
+                      <option value="MG">MG</option>
+                      <option value="PA">PA</option>
+                      <option value="PB">PB</option>
+                      <option value="PR">PR</option>
+                      <option value="PE">PE</option>
+                      <option value="PI">PI</option>
+                      <option value="RJ">RJ</option>
+                      <option value="RN">RN</option>
+                      <option value="RS">RS</option>
+                      <option value="RO">RO</option>
+                      <option value="RR">RR</option>
+                      <option value="SC">SC</option>
+                      <option value="SP">SP</option>
+                      <option value="SE">SE</option>
+                      <option value="TO">TO</option>
+                  </select>
+
+          </div>
+
+        </br>
+          
+            <div>
+              <b>
+                  <label for="Complemento">
+                      Complemento: 
+                    </label>
+                </b>
+              <input type="text" required 
+               placeholder="Complemento" 
+               maxlength="200" name="complemento" id="Complemento">
+          </div>
+
+        </br>
+
+          <div>
+              <b>
+                  <label for="CNPJ">
+                      CNPJ: 
+                    </label>
+                </b>
+              <input type="text" required 
+               placeholder="CNPJ"
+               maxlength="200" name="cnpj" id="CNPJ">
+          </div>
+
+        </br>
+
+          <div>
+             <b>
+                 <label for="Site">
+                     Site: 
+                    </label>
+                </b> 
+             <input type="url" required 
+               placeholder="Site"
+               maxlength="200" name="site" id="Site">
+          </div>
+
+        </br>
+
+          <div>
+              <b>
+                  <label for="Telefone">
+                      Telefone: 
+                    </label>
+                </b>
+              <input type="tel" required 
+               placeholder="Telefone"
+               maxlength="200" name="telefone" id="Telefone">
+          </div>
+
+        </br>
+
+          <div>
+              <b>
+                  <label for="Contato">
+                      Nome de Contato: 
+                    </label>
+                </b> 
+              <input type="text" required 
+               placeholder="Contato"
+               maxlength="200" name="contato" id="Contato">
+          </div>
+
+        </br>
+
+          <div>
+              <b>
+                  <label for="Genero">
+                      Gênero: 
+                    </label>
+                </b>
+
+            </br>
+               <input type="checkbox" name="gerenro" value="Policial">Policial
+  
+               <input type="checkbox" name="gerenro" value="Religioso">Religioso
+            </br>
+               <input type="checkbox" name="gerenro" value="Ficcao">Ficção  
+  
+               <input type="checkbox" name="gerenro" value="Naoficcao">Não Ficção
+            </br>
+               <input type="checkbox" name="gerenro" value="Esporte">Esporte
+               
+               <input type="checkbox" name="gerenro" value="Profissional">Profissional
+            </br>
+               <input type="checkbox" name="gerenro" value="Outros">Outros
+            
+          </div>
+
+        </br>
+
+          <div id="botoes">
+                  <a href=""></a><input type="button" class="btn" value="Voltar"></a>
+
+                  <input type="reset" class="btn" value="LimparCampos">
+                  
+                  <a href=""></a><input type="submit" class="btn" value="Cadastro"></a>
+                  
+                </div>
+  
+          
+        </form>
+      </div>
+  
+</body>
+
+</html>
