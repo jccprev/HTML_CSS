@@ -1,2 +1,2 @@
-# HTML-CSS-e-outros-
+# HTML-CSS
 Algumas paginas aleatórias em html e css 
